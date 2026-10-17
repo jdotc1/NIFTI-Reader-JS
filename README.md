@@ -1,3 +1,13 @@
+## About this fork
+
+This is a development fork of [rii-mango/NIFTI-Reader-JS](https://github.com/rii-mango/NIFTI-Reader-JS), a JavaScript reader for NIfTI-1 and NIfTI-2 images, including compressed `.nii.gz` files. It gives browser and JavaScript application developers access to image headers, voxel data, and extensions when building research viewers or image-processing interfaces.
+
+Fork work is represented by [upstream PR #58](https://github.com/rii-mango/NIFTI-Reader-JS/pull/58), which proposes validating negative extension lengths before payload access. It was open on 17 October 2026; the proposal is on the linked feature branch.
+
+Start with the [upstream API guide](https://github.com/rii-mango/NIFTI-Reader-JS/wiki/API) and the installation and canvas examples in the README below. [Compare the default branch with upstream](https://github.com/jdotc1/NIFTI-Reader-JS/compare/rii-mango:master...jdotc1:master) to inspect its current relationship to the original project.
+
+---
+
 # NIFTI-Reader-JS
 A JavaScript [NIfTI](http://nifti.nimh.nih.gov/) file format reader.  This reader supports both NIfTI-1 and NIfT1-2 file formats, both compressed (.nii.gz) and uncompressed (.nii).
 
